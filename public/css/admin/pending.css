@@ -1,0 +1,61 @@
+.container {
+    margin: 0 70px;
+}
+
+.page-title {
+    color: #070F29;
+    font-family: Raleway;
+}
+
+.tabl {
+    width: 100%;
+    border-collapse: collapse;
+    /* Optional: To remove spacing between cells */
+}
+
+.column-name {
+    font-family: Raleway;
+    color: #DE6E1E;
+}
+
+.column-text {
+    font-family: Poppins;
+    padding: 10px 0;
+    text-align: center;
+    /* Optional: Center text alignment */
+}
+
+.btn1,
+.btn2 {
+    border-radius: 20px;
+    font-family: Raleway;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.5s;
+    background-color: transparent;
+}
+
+.btn1 {
+    border: 2px solid #070F29;
+}
+
+.btn2 {
+    border: 2px solid #DE6E1E;
+}
+
+.btn1:hover {
+    background-color: #070F29;
+    color: white;
+}
+
+.btn2:hover {
+    background-color: #DE6E1E;
+    color: white;
+}
+
+.alert {
+    font-family: Raleway;
+    margin-bottom: 10px;
+}

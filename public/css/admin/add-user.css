@@ -1,0 +1,20 @@
+.signup-title {
+    text-align: center;
+}
+
+.add-cont {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-page {
+    display: none;
+    text-align: center;
+}
+
+.error-message {
+    color: red;
+    font-family: Raleway;
+}

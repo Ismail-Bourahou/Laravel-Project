@@ -1,0 +1,99 @@
+.container {
+    margin: 0 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.page-title {
+    color: #070F29;
+    font-family: Raleway;
+}
+
+.tabl {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.column-name {
+    font-family: Raleway;
+    color: #DE6E1E;
+    text-align: left;
+}
+
+.table-line {
+    text-align: left;
+}
+
+.column-text {
+    font-family: Poppins;
+    padding: 10px 0;
+    text-align: left;
+}
+
+.search-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search-ipt,
+.filter-ipt {
+    font-family: Poppins;
+    border-radius: 15px;
+    border: 1px solid #DE6E1E;
+    padding: 10px 20px;
+    transition: all 0.5s;
+}
+
+.search-ipt:focus,
+.filter-ipt:focus {
+    border-color: #DE6E1E;
+    outline: none;
+    box-shadow: 1px 1px 10px #DE6E1E;
+}
+
+.filter {
+    margin-bottom: 10px;
+}
+
+.filter-ipt {
+    padding: 10px 26px;
+}
+
+.column-image {
+    cursor: pointer;
+    margin: 0 5px;
+    width: 20px;
+}
+
+.edit-input{
+    padding: 5px 0;
+    font-family: Poppins;
+
+    border-width: 0 0 1px 0;
+    border-style: solid;
+    border-color: #DE6E1E;
+    background-color: transparent;
+    color:#070F29;
+}
+
+.edit-input:focus{
+    outline: none;
+}
+
+.approve-btn{
+    font-weight: 500;
+    padding: 5px 10px;
+    font-family: Poppins;
+    border: 1px solid #070F29;
+    border-radius: 15px;
+    background-color: transparent;
+    color:#070F29;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.approve-btn:hover{
+    background-color: #070F29;
+    color: white;
+}
