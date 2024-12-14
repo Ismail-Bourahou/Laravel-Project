@@ -1,66 +1,61 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Plateforme Web pour Examens en Ligne
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Une plateforme sécurisée pour organiser et gérer des examens en ligne. Ce projet offre des fonctionnalités avancées pour empêcher la tricherie et garantir l'intégrité des examens.
 
-## About Laravel
+## 📖 Description
+Cette plateforme web, développée avec **Laravel**, permet aux enseignants et aux administrateurs d'organiser des examens en ligne en toute sécurité. Elle intègre des mécanismes anti-tricherie, comme :
+- **Surveillance active** (détection des changements d'onglets).
+- **Gestion des sessions** avec des mesures de temps strictes.
+- **Authentification sécurisée** des candidats.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Le frontend utilise les technologies **HTML**, **CSS**, et **JavaScript** pour offrir une interface utilisateur intuitive et réactive.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## 🚀 Fonctionnalités principales
+- **Authentification des utilisateurs** (administrateurs, enseignants, et étudiants).
+- **Création et gestion des examens** par les enseignants.
+- **Surveillance des examens** avec des alertes en cas de comportement suspect.
+- **Support multi-navigateurs** pour une expérience fluide.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🛠️ Technologies utilisées
+- **Framework Backend** : Laravel
+- **Base de données** : MySQL
+- **Frontend** : HTML, CSS, JavaScript
+- **Autres outils** :
+  - **AJAX** pour des interactions dynamiques sans rechargement de page.
+  - **Bootstrap** pour un design réactif.
+  - **Middleware Laravel** pour la gestion de la sécurité.
 
-## Learning Laravel
+## 🖥️ Installation et configuration
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+1. **Clonez le dépôt :**
+   git clone <URL_DU_DEPOT>
+   cd <Nom_Dossier_Projet>
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+2. **Installez les dépendances PHP :**
+    composer install
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+3. **Installez les dépendances frontend :**
+    npm install && npm run dev
+    
+4. **Configurez l'environnement :**
+    - Copiez le fichier .env.example et renommez-le en .env :
+        cp .env.example .env
+    - Remplissez les variables nécessaires, comme les informations de base de données.
 
-## Laravel Sponsors
+5. **Générez la clé de l'application :**
+    php artisan key:generate
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+6. **Mettez à jour la base de données :**
+    php artisan migrate
 
-### Premium Partners
+7. **Lancez le serveur local :**
+    php artisan serve
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+    
+Accédez à l'application sur http://localhost:8000.
 
-## Contributing
+🌟 Contribution
+Les contributions sont les bienvenues ! Ouvrez une issue ou une pull request pour signaler un problème ou proposer des améliorations.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+📄 Licence
+Ce projet est sous licence MIT.
