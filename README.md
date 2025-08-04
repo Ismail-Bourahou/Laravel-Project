@@ -14,9 +14,6 @@ Une plateforme sécurisée pour organiser et gérer des examens en ligne. Ce pro
 - **Framework Backend** : Laravel
 - **Base de données** : MySQL
 - **Frontend** : HTML, CSS, JavaScript
-- **Autres outils** :
-  - **AJAX** pour des interactions dynamiques sans rechargement de page.
-  - **Bootstrap** pour un design réactif.
 
 
 
